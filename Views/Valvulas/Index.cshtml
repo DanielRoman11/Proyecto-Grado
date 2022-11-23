@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ValveSizing.Models.Valvula>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Válvulas Generadas</h1>
+
+<div class="boton">
+    <a asp-action="Create" class="link">Nueva Válvula</a>
+</div>
+<div class="tabla">
+    <table class="table">
+    <thead>
+        <tr>
+            <th>Fecha de Creación:</th>
+            <th>Descripción:</th>
+            <th>Caudal (m^3/s):</th>
+            <th>Diámetro (pulgadas):</th>        
+            <th>Área Tránsversal:</th>
+            <th>Velocidad Salida(m/s):</th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>
+                        @Html.DisplayFor(modelItem => item.FechaCreacion)
+                </td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                </td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.Caudal)
+                </td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.Diametro)
+                </td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.Area)
+                </td>
+                <td>
+                        @Html.DisplayFor(modelItem => item.VSalida)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+            }
+    </tbody>
+</table>    
+</div>
