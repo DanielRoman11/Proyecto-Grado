@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N4Pdehmt1vIn8/82mlZKXU4oJu3iRyYDk7aK90XDfpSdU8wSTFujmv0RL23gzaUvmxrac4DWQNYWl61Ed0LDXQ==",
+  "dgSpecHash": "dGlnZERa+o9Aqu4AuIMfJ1rTP8ug98em8nM/e9FidhjPkoAdytavismP9SZKddjFu164knZ17wsgWXkmZszBIQ==",
   "success": true,
-  "projectFilePath": "D:\\Programación\\C#\\ProyectoDeGrado\\ValveSizing\\ValveSizing\\ValveSizing\\ValveSizing.csproj",
+  "projectFilePath": "D:\\Programación\\C#\\ProyectoDeGrado\\ValveSizing\\Proyecto-Grado\\ValveSizing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daker\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\daker\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

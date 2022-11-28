@@ -10442,11 +10442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programación\\C#\\ProyectoDeGrado\\ValveSizing\\ValveSizing\\ValveSizing\\ValveSizing.csproj",
+      "projectUniqueName": "D:\\Programación\\C#\\ProyectoDeGrado\\ValveSizing\\Proyecto-Grado\\ValveSizing.csproj",
       "projectName": "ValveSizing",
-      "projectPath": "D:\\Programación\\C#\\ProyectoDeGrado\\ValveSizing\\ValveSizing\\ValveSizing\\ValveSizing.csproj",
+      "projectPath": "D:\\Programación\\C#\\ProyectoDeGrado\\ValveSizing\\Proyecto-Grado\\ValveSizing.csproj",
       "packagesPath": "C:\\Users\\daker\\.nuget\\packages\\",
-      "outputPath": "D:\\Programación\\C#\\ProyectoDeGrado\\ValveSizing\\ValveSizing\\ValveSizing\\obj\\",
+      "outputPath": "D:\\Programación\\C#\\ProyectoDeGrado\\ValveSizing\\Proyecto-Grado\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
